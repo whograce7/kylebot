@@ -1,6 +1,6 @@
-__author__ = 'Kyle Tran'
+__author__ = 'Bennetnasch'
 __version__ = '1.2'
-__github__ = 'github.com/kyletran191'
+__github__ = 'github.com/whograce7'
 __license__ = 'GNU General Public License v3.0'
 # Kylebot | Discord ddos bot v1.2 | Kyle Tran
 #=====Import Module=====#
@@ -20,12 +20,12 @@ from os import name
 from colorama import *                                                
 import random, datetime, discord                        
 #=====User && Methods Setting=====#
-buyers  = [920122047311540294]  #          
-admins  = [920122047311540294]  #   ID users            
-owners  = [920122047311540294]  #          
+buyers  = [1440633618824302654]  #          
+admins  = [1440633618824302654]  #   ID users            
+owners  = [1440633618824302654]  #          
 methods = ['HTTP-FLOOD', 'HTTP-RAW', 'HTTP-RAND', 'HTTP-SOCKET','CLOUDFLARE','UAM-BYPASS','SLOW'] # Methods
 year_now= datetime.datetime.now().strftime("%Y")     
-token   = '' # paste your token here
+token   = 'MTQ1OTI5NDIwMzQwMTA3NzAxOA.GjqmJW.GHkkQVXiCJMRdEFqXc-ZCOdSIWAk89h_b0_onQ' # paste your token here
 intents = discord.Intents.default()
 intents.members = True 
 intents.message_content = True
