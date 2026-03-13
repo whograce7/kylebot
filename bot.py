@@ -22,10 +22,10 @@ import random, datetime, discord
 #=====User && Methods Setting=====#
 buyers  = [1440633618824302654]  #          
 admins  = [1440633618824302654]  #   ID users            
-owners  = [1440633618824302654]  #          
+owners  = [1459312126593077288]  #          
 methods = ['HTTP-FLOOD', 'HTTP-RAW', 'HTTP-RAND', 'HTTP-SOCKET','CLOUDFLARE','UAM-BYPASS','SLOW'] # Methods
 year_now= datetime.datetime.now().strftime("%Y")     
-token   = 'MTQ1OTI5NDIwMzQwMTA3NzAxOA.GyWR_O.pcZ9geP3cnMOp54XsnzFAhXTqaPHTnULtJvwkU' # paste your token here
+token   = 'MTQ1OTMxMjEyNjU5MzA3NzI4OA.GKsjpK.Tvasib7xok5nxBCPcjyOzYqwrKmHSwPiIMRX6k' # paste your token here
 intents = discord.Intents.default()
 intents.members = True 
 intents.message_content = True
